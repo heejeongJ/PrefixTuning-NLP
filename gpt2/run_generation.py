@@ -16,7 +16,9 @@
 # limitations under the License.
 """ Conditional text generation with the auto-regressive models of the library (GPT/GPT-2/CTRL/Transformer-XL/XLNet)
 """
-
+## NLP를 위해 pre-trained된 자동 회귀 모델들 사용
+# Hugging face의 'transformers' 라이브러리를 기반으로 함
+# 모델의 입력을 준비하고 설정된 매개변수에 따라 텍스트를 생성하는 등의 기능 수행
 
 import argparse
 import logging
